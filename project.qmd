@@ -20,7 +20,7 @@ execute:
   message: false
   warning: false
 
-from: markdown+emoji
+# from: markdown+emoji
 ---
 ```{r setup}
 #| include: false

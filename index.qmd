@@ -2,40 +2,75 @@
 title: "Abby Hofschneider"
 about:
   template: trestles  # jolla  trestles  solana  marquee  broadside
-  image: img/profile.png
+  image: img/unnamed.png
   image-width: 15em
   image-shape: round # rectangle  round  rounded
   
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/abby-hofschneider-20480a250/
     - icon: instagram
       text: Instagram
-      href: https://instagram.com
+      href: https://www.instagram.com/abby.hof/?next=%2F
     - icon: github
       text: GitHub
       href: https://github.com
     - icon: file-earmark-pdf
       text: Resumé
-      href: https://GITHUB_USERNAME.github.io/resume-example.pdf
+      href: file:///C:/Users/abbyh/Downloads/Abigale%20Hofschneider%20resume%20October%202023%20(1).pdf
     - icon: mailbox
       text: Email
-      href: mailto:YOUR_EMAIL@geneseo.edu
+      href: mailto:arh24@geneseo.edu
 
 ---
 
 
-Finley Malloc majors in Data Analytics at SUNY Geneseo. When not working on data analytics, Finley enjoys spending time unicycling and playing with her pet iguana.
+Abby Hofschneider majors in Business Administration at SUNY Geneseo. When not working on data analytics, Abby enjoys spending time with friends and watching movies!
 
 ## Education
 
 State University of New York at Geneseo | Geneseo, NY <br>
-B.S. in Data Analytics | Aug 2022 - May 2026 <br>
-Minor in Business Administration 
+BUsiness Administration Major | Aug 2022 - May 2026 <br>
+ 
 
 ## Experience
 
-Starbucks Analytics | Data Analyst Intern | May 2024 - Aug 2024
+Home Depot Cashier | May 2023 - Now | <br>
+Technical Theatre Worker | August 2022 - Now | <br>
+
+
+# Markdown Basics
+
+*italics*, **bold**, 
+
+#Header 1
+
+#Header 1.1
+
+#Header 2
+
+#Header 3
+
+#scale functions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
