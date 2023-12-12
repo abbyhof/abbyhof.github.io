@@ -1,0 +1,14 @@
+{
+  "hash": "68ce818717ae0258dd0961efa075f02c",
+  "result": {
+    "markdown": "---\ntitle: \"NYC Restaurant Inspection\"\nauthor: \"Abby Hofschneider\"\ndate: \"2023-12-11\"\ncategories: [NYC, code, analysis]\nimage: \"OIP.jpg\"\n---\n\n\nThis is a post with executable code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

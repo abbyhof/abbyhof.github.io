@@ -12,7 +12,7 @@ website:
       - text: Blog
         href: blog-listing.qmd
   page-footer: 
-    center: "Powered with GitHub and Quarto<br>© YOUR NAME, 2023"
+    center: "Powered with GitHub and Quarto<br>© Abby Hofschneider, 2023"
 
 format:
   html:
@@ -21,7 +21,7 @@ format:
       dark: darkly
     mainfont: system-ui; 
     highlight-style: atom-one
-    css: styles.css
+    css: mybgcolor {background-color:#92bdd9; }, .myforecolor {color:#7d7eec; }
     toc: false
     include-after-body: target_blank.html
     

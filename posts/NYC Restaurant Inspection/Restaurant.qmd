@@ -1,0 +1,62 @@
+---
+title: "NYC Restaurant Inspection"
+author: "Abby Hofschneider"
+date: "2023-12-11"
+categories: [NYC, code, analysis]
+image: "OIP.jpg"
+
+execute: 
+  warning: false
+  message: false
+---
+```{r}
+#| include: false
+
+library(knitr)
+library(rmarkdown)
+library(tidyverse)
+library(skimr)
+library(ggthemes)
+library(hrbrthemes)
+
+theme_set(theme_ipsum()+
+          theme(strip.background =element_rect(fill="lightgray"),
+                axis.title.x  = element_text(angle = 0,
+                                            size = rel(1.5),
+                                            margin = margin(10,0,0,0)),
+                axis.title.y  = element_text(angle = 0,
+                                            size = rel(1.5),
+                                            margin = margin(0,10,0,0))
+                )
+          )
+```
+
+
+```{r}
+restaurant <- read_csv("https://bcdanl.github.io/data/DOHMH_NYC_Restaurant_Inspection.csv")
+```
+
+
+```{r}
+ggplot(restaurant) +
+  geom_boxplot(aes(x = SCORE, y = GRADE, fill = GRADE) ) +
+  facet_grid( `CRITICAL FLAG` ~ . )
+```
+
+
+```{r}
+ggplot(restaurant) +
+  geom_histogram(aes(x = SCORE), binwidth = 1 ) +
+  facet_wrap( `CRITICAL FLAG` ~ GRADE, scales = 'free' )
+```
+
+
+```{r}
+ggplot(restaurant) +
+  geom_bar(aes(x = `CRITICAL FLAG`,
+               y = after_stat(prop), group = 1)) +
+  facet_grid( GRADE ~ BORO )
+```
+
+
+

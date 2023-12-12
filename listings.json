@@ -2,11 +2,11 @@
   {
     "listing": "/blog-listing.html",
     "items": [
-      "/posts/beer-markets/beer-markets.html",
-      "/posts/starwars/starwars_df.html",
-      "/posts/starwars - Copy/starwars_df.html",
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/NFL/nfl.html",
+      "/posts/welcome/index.html",
+      "/posts/Spotify/spotify.html",
+      "/posts/NYC Restaurant Inspection/Restaurant.html",
+      "/posts/beer-markets/beer-markets.html"
     ]
   }
 ]

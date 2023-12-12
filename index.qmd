@@ -1,7 +1,7 @@
 ---
 title: "Abby Hofschneider"
 about:
-  template: trestles  # jolla  trestles  solana  marquee  broadside
+  template: jolla  # jolla  trestles  solana  marquee  broadside
   image: img/unnamed.png
   image-width: 15em
   image-shape: round # rectangle  round  rounded
@@ -15,10 +15,10 @@ about:
       href: https://www.instagram.com/abby.hof/?next=%2F
     - icon: github
       text: GitHub
-      href: https://github.com
+      href: https://github.com/abbyhof/abbyhof.github.io
     - icon: file-earmark-pdf
       text: Resumé
-      href: file:///C:/Users/abbyh/Downloads/Abigale%20Hofschneider%20resume%20October%202023%20(1).pdf
+      href: https://abbyhof.github.io/resume2023.pdf
     - icon: mailbox
       text: Email
       href: mailto:arh24@geneseo.edu
@@ -31,7 +31,7 @@ Abby Hofschneider majors in Business Administration at SUNY Geneseo. When not wo
 ## Education
 
 State University of New York at Geneseo | Geneseo, NY <br>
-BUsiness Administration Major | Aug 2022 - May 2026 <br>
+Business Administration Major | Aug 2022 - May 2026 <br>
  
 
 ## Experience
