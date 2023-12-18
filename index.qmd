@@ -40,19 +40,7 @@ Home Depot Cashier | May 2023 - Now | <br>
 Technical Theatre Worker | August 2022 - Now | <br>
 
 
-# Markdown Basics
 
-*italics*, **bold**, 
-
-#Header 1
-
-#Header 1.1
-
-#Header 2
-
-#Header 3
-
-#scale functions
 
 
 
